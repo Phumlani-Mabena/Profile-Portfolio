@@ -21,7 +21,7 @@ A modern web browser.
 Internet
 
 ## **Installation**
-Clone the repository: https://github.com/Phumlani-Mabena/PhumlaniPortfolio.git
+Clone the repository: https://github.com/Phumlani-Mabena/Profile-Portfolio.git
 
 
 ## **Live link to my web Portfolio**
