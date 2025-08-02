@@ -81,8 +81,8 @@ resumeBtns.forEach((btn, idx) => {
 
 document.getElementById("downloadButton").addEventListener("click", function () {
     var a = document.createElement("a");
-    a.href = "Imgs/Mabena_P_CV.pdf";
-    a.download = "Mabena_P_CV.pdf";
+    a.href = "Imgs/Mabena.P.Cv.pdf";
+    a.download = "Mabena.P.Cv.pdf";
     a.click();
   });
 

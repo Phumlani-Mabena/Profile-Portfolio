@@ -244,8 +244,8 @@ section.active{
 
 .home-img .img-box {
     position: relative;
-    width: 32vw;
-    height: 32vw;
+    width: 28vw;
+    height: 28vw;
     border-radius: 50%;
     padding: .5rem;
     display: flex;
@@ -258,8 +258,8 @@ section.active{
 .home-img .img-box::after {
     content: "";
     position: absolute;
-    width: 50rem;
-    height: 50rem;
+    width: 120rem;
+    height: 120rem;
     background: conic-gradient(transparent, transparent, transparent, var(--main-bg-color));
     transform: rotate(0deg);
     animation: rotate-border 10s linear infinite;
@@ -291,7 +291,7 @@ section.active{
 .home-img .img-box .img-item img {
     position: absolute;
     
-    top: 3rem;
+    top: 0rem;
     display: block;
     width: 100%;
     object-fit: cover;
