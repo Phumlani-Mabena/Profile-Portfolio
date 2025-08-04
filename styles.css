@@ -21,8 +21,14 @@ html{
     font-size: 62.5%;
 }
 
-body{
+
+body {
     color: var(--white-color);
+}
+body::-webkit-scrollbar {
+    width: .7rem;
+    display: none;
+    color: var(--bg-color);
 }
 
 header{
@@ -113,13 +119,12 @@ nav a.active{
     }
 }
 
-section{
+section {
     position: absolute;
     width: 100%;
     height: 100%;
-    padding: 10rem 9% 2rem;
+    padding: 10rem 9% 8rem; /* Changed from 2rem to 8rem bottom padding */
     visibility: hidden;
-
     opacity: 0;
     overflow: hidden;
 }
@@ -315,7 +320,7 @@ section.active{
 }
 
 .services-container .services-box{
-    padding: 3rem 2.5rem ;
+    padding: 2rem 2.5rem ;
     background: var(--second-bg-color);
     border: .2rem solid var(--second-bg-color);
     border-radius: 1rem;
@@ -575,7 +580,7 @@ section.active{
 /* Portfolio Css*/
 .portfolio-container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 3rem;
 }
 
@@ -737,6 +742,8 @@ section.active{
   background-color: var(--second-bg-color);
   padding: 10px;
   border-radius: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+
 }
 
 .content h1{
